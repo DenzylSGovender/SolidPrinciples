@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SolidDebudMVC/1.0.0": {
+        "runtime": {
+          "SolidDebudMVC.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SolidDebudMVC/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

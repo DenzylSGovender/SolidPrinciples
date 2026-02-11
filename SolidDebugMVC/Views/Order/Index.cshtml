@@ -1,0 +1,51 @@
+﻿@model SolidDebugMVC.Models.Order
+
+@{
+    ViewData["Title"] = "Order Processing";
+}
+
+<h2>Order Processing</h2>
+<form method="post">
+
+    <label>Customer Name</label>
+    <input type="text" name="CustomerName" />
+
+    <label>Amount</label>
+    <input type="number" name="Amount" />
+
+    <label>Payment Type</label>
+    <select name="PaymentType">
+        <option value="CreditCard">CreditCard</option>
+        <option value="PayPal">PayPal</option>
+    </select>
+
+    <label>Notification Type</label>
+    <select name="NotificationType">
+        <option value="Email">Email</option>
+        <option value="SMS">SMS</option>
+    </select>
+
+    <button type="submit">Submit Order</button>
+
+</form>
+
+
+<hr />
+
+@if (ViewBag.AllOrders != null)
+{
+    <h3>Saved Orders</h3>
+
+    <ul>
+        @foreach (var o in ViewBag.AllOrders)
+        {
+            <li>
+                @o.CustomerName -
+                @o.Amount -
+                @o.PaymentType -
+                @o.NotificationType
+            </li>
+        }
+    </ul>
+}
+
