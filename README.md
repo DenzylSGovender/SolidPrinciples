@@ -4,7 +4,7 @@
 
 ## Purpose
 
-Students will need to analyse the poorly designed code, refactor it using the first two SOLID principles, and extend functionality without modifying existing logic — mirroring real enterprise development practices.
+Students will need to analyse the poorly designed code, refactor it using the first two SOLID principles, and extend functionality without modifying existing logic, mirroring real enterprise development practices.
 
 ## Activity Structure
 
